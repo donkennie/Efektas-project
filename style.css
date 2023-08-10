@@ -1,0 +1,123 @@
+body{  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-color:#991B1E;  
+    color: #FFFFFF;
+    scroll-behavior: smooth;
+    font-weight: bolder;
+  }  
+  .container {  
+      text-align: center;
+      position: relative;
+  }  
+
+  div {  
+    padding: 10px 0;  
+ }  
+    hr {  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 25px;  
+    }  
+
+.small-container {
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+  input[type=text], textarea {  
+    width: 100%;  
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    border-radius: 3px;
+    background: #f1f1f1; 
+    outline: none; 
+  }  
+
+  .registerbtn {  
+    background-color: #fff;  
+    color: #991B1E;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;  
+    width: 100%;  
+    opacity: 0.9;  
+  }  
+  .registerbtn:hover {  
+    opacity: 1;  
+  }  
+
+  .form_control{
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .date{
+    padding-right: 67px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+  }
+
+  select{
+    padding-right: 67px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    /* width: 100%; Set a default width */
+    /* padding: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  /* select option {
+    font-size: 14px;
+    padding: 5px 10px;
+} */
+
+  @media screen and (max-width: 480px) {
+    .small-container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .form_control{
+        padding: 0px;
+        /* column-gap: 72px; */
+    }
+    
+    select{
+        padding-right: 0px;
+        border-radius: 4px;
+        font-size: 15px;
+        width: 89px;
+    }
+
+    .date{
+        padding-right: 12px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .small-container {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-bottom: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .small-container {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+  }

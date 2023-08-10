@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <form>
+        <div class="container">
+            <center>  <h1> Project Form Registration</h1> </center>
+        </div>
+        <hr>
+
+        <div class="small-container">
+        <div>
+        <label> Project Name </label>   
+        <input type="text" name="project name" placeholder= "Project Name" size="15" required />    
+        </div>
+
+        <div>
+        <label> Project Motto: </label>   
+        <input type="text" name="project motto" placeholder="Project Motto" size="100" required />   
+    </div>
+
+    <div>
+        <label> Location: </label>    
+        <input type="text" name="location" placeholder="Location" size="50"required />   
+    </div>
+
+    <div>
+        <label> Currency: </label>    
+        <input type="text" name="currency" placeholder="Currency" size="50"required />
+    </div>
+
+    <div>
+        <label>About:</label>
+        <textarea cols="80" rows="5" placeholder="What's the project all about?" value="about" required>  
+        </textarea>
+    </div>    
+
+    <div>
+        <label>Practical Lessons and Lectures:</label>
+        <textarea cols="80" rows="5"value="lessons and lectures" required>  
+        </textarea> 
+    </div>
+           
+    <div>
+        <label>Why this?:</label>
+        <textarea cols="80" rows="5" placeholder="Why do we have this project?" value="why this?" required>  
+        </textarea>  
+    </div>
+    
+    <div>
+    <label for="url">Links&Resources</label>
+    <textarea cols="80" rows="5"value="link and resources" required>  
+    </textarea>
+    </div>
+
+        <div class="form_control">
+            <div>
+            <label for="date"> Date </label>
+            <input class="date" value="YYYY-MM-DD" type="date" id="date" name="date" />
+            </div>
+            
+            <div>  
+                <label>   
+                Project Status:  
+                </label>   
+                
+                <select>  
+                    <option value="Active">Active</option>  
+                    <option value="Completed">Completed</option>
+                </select> 
+                </div>  
+          </div>      
+            
+            <button type="submit" class="registerbtn">Register</button>   
+        </div>
+    </form>
+
+    
+</body>
+</html>
