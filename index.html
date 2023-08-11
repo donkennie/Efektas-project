@@ -54,9 +54,16 @@
     </div>
     
     <div>
-    <label for="url">Links&Resources</label>
-    <textarea cols="80" rows="5"value="link and resources" required>  
+    <label for="url">Media Links</label>
+    <textarea cols="80" rows="5"value="link" required>  
     </textarea>
+    </div>
+
+    <div>
+        <label for="url">Resources</label>
+        <form enctype="multipart/form-data" method="post" action="upload.php">
+            <input type="file" name="documents[]" accept=".pdf, .doc, .docx" multiple>
+        </form>
     </div>
 
         <div class="form_control">
